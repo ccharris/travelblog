@@ -38,6 +38,7 @@ export const query = graphql`
         }
       }
       gallery {
+        link
         title
         copy
         image {

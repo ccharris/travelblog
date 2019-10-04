@@ -2,8 +2,9 @@
   "title": "Home",
   "content": "intro.md",
   "gallery": [{
+    "link": "santorini",
     "title": "Most Recent Adventure:",
     "copy": "Greece!",
-    "image": "../images/gallery/athens.jpg"
+    "image": "../images/gallery/santorini1.jpg"
   }]
 }

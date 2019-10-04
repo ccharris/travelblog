@@ -67,10 +67,6 @@ export default createGlobalStyle`
     border-spacing: 0;
   }
 
-  a {
-    color: ${accent};
-  }
-
   pre {
     display: block;
     padding: 2rem;
