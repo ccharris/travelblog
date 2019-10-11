@@ -6,10 +6,12 @@ import Title from 'components/title';
 import Gallery from 'components/gallery';
 import IOExample from 'components/io-example';
 import Modal from 'containers/modal';
+import HeaderImage from 'components/header-image';
 import { graphql } from 'gatsby';
 
 const Index = ({ data }) => (
   <Layout>
+    <HeaderImage />
     <Box>
       <Title as="h2" size="large">
         {data.homeJson.content.childMarkdownRemark.rawMarkdownBody}

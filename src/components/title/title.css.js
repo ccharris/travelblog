@@ -3,6 +3,7 @@ import MEDIA from 'helpers/mediaTemplates';
 
 export const Text = styled.span`
   display: block;
+  margin-right: 1em;
   font-weight: ${({ size }) => () => {
     switch (size) {
       case 'large':
